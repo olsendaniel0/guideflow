@@ -9,7 +9,7 @@ export default function Home() {
           >Velkommen til GuideFlow!</h1>
       <p style={{color: "purple", fontSize: 24,
          textAlign: "center",mariginTop: 20}}>Her er et testbilde av Daniel:</p>
-      <Image src="/daniel.JPG" alt="Testbilde" width={1000} height={600}/>
+      <Image src="/daniel.jpg" alt="Testbilde" width={1000} height={600}/>
     </div>
   );
 }
