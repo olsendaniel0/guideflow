@@ -6,7 +6,7 @@ export default function Home() {
     <div style={{ textAlign: "center", marginTop: 50 }}>
       <h1>Velkommen til GuideFlow!</h1>
       <p>Her er et testbilde av Daniel:</p>
-      <Img src="/daniel.jpg" alt="Testbilde" width={500} height={300} />
+      <Image src="/Daniel.jpg" alt="Testbilde" width={500} height={300} />
     </div>
   );
 }
