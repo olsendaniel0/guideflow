@@ -3,7 +3,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div style={{textAlign: "center"}}>
+    <div style={{textAlign: "center",
+      backgroundColor: "5E5F57",
+      minHeight: "100vh",
+      paddingTop: 20
+    }}>
       <h1 style={{color: "red", fontSize: 36,
          textAlign: "center",mariginTop: 20}}
           >Velkommen til GuideFlow!</h1>
