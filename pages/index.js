@@ -11,7 +11,7 @@ export default function Home() {
     }}>
       <h1 style={{color: "red", fontSize: 36,
          textAlign: "center", marginTop: 20}}
-          >Melk (eller mjølk) er den hvite eller gulhvite, næringsrike væsken som hunn-pattedyr produserer for å nære sine unger. Melken fra hver art har ulik sammensetning, men har også mange fellestrekk. Ettersom drikken skal tilføre avkommet alle de næringsstoffene som trenges for at barnet skal vokse, inneholder den næringsstoffene avkommet trenger. Melk</h1>
+          >Danse</h1>
       <Link href="/order">
         <p style={{color: "purple", fontSize: 24,
            textAlign: "center", marginTop: 20}}>dette er oppfinneren av Melk</p>
@@ -20,3 +20,5 @@ export default function Home() {
     </div>
   );
 }
+
+Home.background = "page-home";
