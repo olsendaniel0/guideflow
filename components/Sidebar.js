@@ -6,7 +6,7 @@ export default function Sidebar() {
 
   return (
     <aside className="sidebar">
-      <h2>Menu</h2>
+      <h2>Guideflow</h2>
       <nav>
         <ul>
           <li>

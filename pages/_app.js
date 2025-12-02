@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import { useEffect } from 'react';
+import Topbar from '../components/Topbar';
 
 export default function App({ Component, pageProps }) {
   const bgClass = Component.background || "";
@@ -19,6 +20,9 @@ export default function App({ Component, pageProps }) {
   }, [bgClass]);
 
   return (
-    <Component {...pageProps} />
+    <>
+      <Topbar />
+      <Component {...pageProps} />
+    </>
   );
 }
