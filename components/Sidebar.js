@@ -19,6 +19,11 @@ export default function Sidebar() {
               Order
             </Link>
           </li>
+          <li>
+            <Link href="/info" className={router.pathname === "/info" ? "active" : ""}>
+              Info
+            </Link>
+          </li>
         </ul>
       </nav>
     </aside>
